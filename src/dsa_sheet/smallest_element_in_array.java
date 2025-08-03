@@ -11,10 +11,9 @@ public class smallest_element_in_array {
         System.out.println("The smallest element in the array is: " + smallestElement(arr2));
     }
 
-    // Method to find the smallest element
     static int smallestElement(int arr[]) {
-        int min = arr[0]; // Assume first element is smallest
-        for (int num : arr) { // Enhanced for loop
+        int min = arr[0];
+        for (int num : arr) {
             if (num < min) {
                 min = num;
             }
